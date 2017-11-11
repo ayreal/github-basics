@@ -1,9 +1,19 @@
 # Github Basics
 
-- Checkout from master to a feature branch called "Chris" and make an edit to the README.md file locally. 
+### Working With Collaborators
+- Checkout from master to a feature branch called "Chris" and make an edit to the EDITME.md file locally. 
 - Commit your changes
 - Push your changes to the remote branch "Chris"
-- Make a pull request in Github to merge changes into the master branch
+- Make a pull request in Github to merge changes into the Chris branch. Fix the merge conflicts
+- There is a branch called Ariel on remote. From the local Chris branch, pull down the Ariel branch and fix the merge conflicts. 
+- Again, push your changes to the remote branch "Chris" and submit a pull request on Github to merge with master.
+- Checkout to your local master branch. It should be 1 commit behind remote origin master. Make your local master branch up to date.
+
+### Forking
+- Fork master branch to your own repo.
+- Edit the README.md file of your repo on the master branch directly on Github (not locally) and commit the changes. Compare this repo to your repo. Are they the same?
+
+### Rollback to Previous Commit
 
 [Learn Git Branching Game](https://learngitbranching.js.org/)
 
